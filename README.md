@@ -1,7 +1,7 @@
 ### Muito prazer, eu sou a Gabi ✌️
 ##### Me siga nas redes sociais :)
 
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielli-katherin/) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_gabcat_/)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielli-katherin/) [![Instagram](https://instagram.com/e_logicooficial?igshid=ZDdkNTZiNTM=)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GabiiKatherin&layout=compact)](https://github.com/gabiikatherin/github-readme-stats)
 
@@ -10,14 +10,19 @@
 <div style="display: inline_block"><br/>
     <img align="center" alt="SGBD" src="https://img.shields.io/badge/-SGBD-red" />
     
-    SELECT nom_materia, nom_conteudo, count(distinct c.cod_conteudo) as qtd_topicos_estudados, count(distinct r.cod_conteudo) as qtd_topicos_revisados
-    FROM _Materia m
-    INNER JOIN _Conteudos c on c.cod_materia = m.cod_materia
-    LEFT JOIN _Estudados e on e.cod_conteudo = c.cod_conteudo 
-    LEFT JOIN _Revisado r on r.cod_conteudo = e.cod_conteudo  AND CAST(r.data_revisao AS DATE) >= CAST(e.data_estudo AS DATE)
-    WHERE CAST(s.EventDate AS DATE) >= CAST(GETDATE()-7 AS DATE)
-    GROUP BY nom_materia, nom_conteudo, count(distinct c.cod_conteudo) as qtd_topicos_estudados, count(distinct r.cod_conteudo) as qtd_topicos_revisados
-    ORDER BY count(distinct c.cod_conteudo) ASC
+    SELECT nom_materia, nom_conteudo, qtd_topicos_estudados, qtd_topicos_revisados
+    FROM (SELECT nom_materia,
+           nom_conteudo,
+           count(distinct c.cod_conteudo) as qtd_topicos_estudados,
+           count(distinct r.cod_conteudo) as qtd_topicos_revisados
+          FROM _Materia m
+                INNER JOIN _Conteudos c on c.cod_materia = m.cod_materia
+                LEFT JOIN _Estudados e on e.cod_conteudo = c.cod_conteudo 
+                LEFT JOIN _Revisado r on r.cod_conteudo = e.cod_conteudo  AND CAST(r.data_revisao AS DATE) >= CAST(e.data_estudo AS DATE)
+          WHERE CAST(s.EventDate AS DATE) >= CAST(GETDATE()-7 AS DATE)
+                GROUP BY nom_materia, nom_conteudo, count(distinct c.cod_conteudo) as qtd_topicos_estudados, count(distinct r.cod_conteudo) as qtd_topicos_revisados
+                ORDER BY count(distinct c.cod_conteudo) ASC
+    ) AS T
 
 </div>
 
