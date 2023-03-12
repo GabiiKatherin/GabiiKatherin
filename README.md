@@ -3,11 +3,24 @@
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielli-katherin/) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_gabcat_/)
 
-![Gabi GitHub stats](https://github-readme-stats.vecel.app/api?username=GabiiKatherin&show_icons=true&theme=dracula)
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GabiiKatherin&layout=compact)](https://github.com/gabiikatherin/github-readme-stats)
 
 ### Tecnologias que aprendo no meu dia a dia:
+
+<div style="display: inline_block"><br/>
+    <img align="center" alt="SGBD" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+    
+    SELECT nom_materia, nom_conteudo, count(distinct c.cod_conteudo) as qtd_topicos_estudados, count(distinct r.cod_conteudo) as qtd_topicos_revisados
+    FROM _Materia m
+    INNER JOIN _Conteudos c on c.cod_materia = m.cod_materia
+    LEFT JOIN _Estudados e on e.cod_conteudo = c.cod_conteudo 
+    LEFT JOIN _Revisado r on r.cod_conteudo = e.cod_conteudo  AND CAST(r.data_revisao AS DATE) >= CAST(e.data_estudo AS DATE)
+    WHERE CAST(s.EventDate AS DATE) >= CAST(GETDATE()-7 AS DATE)
+    GROUP BY nom_materia, nom_conteudo, count(distinct c.cod_conteudo) as qtd_topicos_estudados, count(distinct r.cod_conteudo) as qtd_topicos_revisados
+    ORDER BY count(distinct c.cod_conteudo) ASC
+
+</div>
+
 
 <div style="display: inline_block"><br/>
     <img align="center" alt="HTML5" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
@@ -20,16 +33,6 @@
         Projeto Xadrez = new Xadez();
       }
     }
-</div>
-
-<div style="display: inline_block"><br/>
-    <img align="center" alt="POSTGRESQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-
-    SELECT *
-    FROM estudos_sql esql
-    JOIN estudar_hoje eh ON esql.praticar = eh.praticar
-    WHERE eh.estudar = 'feito'
-
 </div>
 
 <div style="display: inline_block"><br/>
