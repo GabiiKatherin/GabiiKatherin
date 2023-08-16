@@ -48,7 +48,11 @@
 <div style="display: inline_block"><br/>
     <img align="center" alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 
-    EM BREVE!
+    import pandas as pd
+    dados = pd.read_csv("estudos.csv")
+    media_horas = dados['horas_estudo'].mean()
+    print(f"Meus esforços diários estão fazendo a diferença!\nMinha média de horas de estudo é: {media_horas:.2f} horas. É isso, um dia de cada vez!")
+
 
 </div>
          
