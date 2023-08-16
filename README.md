@@ -20,10 +20,10 @@
                 INNER JOIN _Conteudos c on c.cod_materia = m.cod_materia
                 LEFT JOIN _Estudados e on e.cod_conteudo = c.cod_conteudo 
                 LEFT JOIN _Revisado r on r.cod_conteudo = e.cod_conteudo  AND CAST(r.data_revisao AS DATE) >= CAST(e.data_estudo AS DATE)
-          WHERE CAST(s.EventDate AS DATE) >= CAST(GETDATE()-7 AS DATE)
-                GROUP BY nom_materia, nom_conteudo, count(distinct c.cod_conteudo) as qtd_topicos_estudados, count(distinct r.cod_conteudo) as qtd_topicos_revisados
+          WHERE s.EventDate >= DATEADD(DAY,-7,GETDATE()
+                GROUP BY nom_materia, nom_conteudo
                 ORDER BY count(distinct c.cod_conteudo) ASC
-    ) AS T
+    ) AS T;
 
 </div>
 
