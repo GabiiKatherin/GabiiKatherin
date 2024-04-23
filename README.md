@@ -1,14 +1,25 @@
-# 👩🏽 Olá, eu sou a Gabi!
-📊 Analista de Dados & CRM Tech<br/>
-💻 Bacharel em Sistemas de Informação<br/>
+<div align="center">
+  <h1>👩🏽 Olá, eu sou a Gabi!</h1>
+Tenho 26 anos, sou Analista de Dados, formada em Sistemas de Informação.</br>
+</div>
 
-<!-- GitHub stats: https://github.com/anuraghazra/github-readme-stats -->
-![](https://github-readme-stats.vercel.app/api?username=gabiikatherin&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=gabiikatherin&bg_color=000000&color=9e4c98&line=9e4c98&point=251321&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<div align="center">
+ <h2>Me siga nas redes sociais:</h2>
+  <a href="https://www.linkedin.com/in/gabriellikatherin" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://www.instagram.com/gabiikatherin_/" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white")></a>
+  <a href="https://medium.com/@katheringabrielli"  target="_blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white")></a>
+</div>
 
+<div align="center">
+  <!-- GitHub stats: https://github.com/anuraghazra/github-readme-stats -->
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gabiikatherin&show_icons=true&count_private=true&hide_border=true&bg_color=141321&title_color=FB418D&text_color=78B1B1&icon_color=78B1B1">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GabiiKatherin&layout=compact&show_icons=true&count_private=true&hide_border=true&bg_color=141321&title_color=FB418D&text_color=78B1B1&icon_color=78B1B1">
+</div>
+
+<div align="center">
+  <img width="90%" height="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=gabiikatherin&bg_color=141321&color=fb418d&line=9e4c98&point=6f2f4a&area=true&hide_border=true">
 
 # 💻 Linguagens que estudo:</br>
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GabiiKatherin&layout=compact&theme=radical)</br>
 <!-- Badges from https://github.com/Ileriayo/markdown-badges -->
 ##### Desenvolvimento Web & Desing:
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -26,7 +37,4 @@
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
-# Me siga nas redes sociais:</br>
-<a href="https://www.linkedin.com/in/gabriellikatherin" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)
-![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)
+
