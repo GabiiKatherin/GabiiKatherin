@@ -29,7 +29,8 @@
           <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white"><br>   
          <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white">
          <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white">
-    <h4>Visite meus repositórios, projetos e artigos e fique à vontade para deixar um feedback.</h4>
+    <h4>Visite meus repositórios, projetos e artigos.<br>
+      Fique à vontade para deixar um feedback e/ou me seguir nas redes.</h4>
 </div>
 <h1></h1>
 
