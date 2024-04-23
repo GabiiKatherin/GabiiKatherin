@@ -12,7 +12,7 @@
   <!-- GitHub stats: https://github.com/anuraghazra/github-readme-stats -->
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gabiikatherin&show_icons=true&count_private=true&hide_border=true&bg_color=141321&title_color=FB418D&text_color=78B1B1&icon_color=78B1B1">
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GabiiKatherin&layout=compact&show_icons=true&count_private=true&hide_border=true&bg_color=141321&title_color=FB418D&text_color=78B1B1&icon_color=78B1B1">
-  <img width="85%" height="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=gabiikatherin&bg_color=141321&color=fb418d&line=9e4c98&point=6f2f4a&area=true&hide_border=true">
+  <img width="90%" height="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=gabiikatherin&bg_color=141321&color=fb418d&line=9e4c98&point=6f2f4a&area=true&hide_border=true">
 </div>
 
 <div align="center">
