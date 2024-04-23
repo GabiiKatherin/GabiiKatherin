@@ -16,7 +16,7 @@
 </div>
 
 <div align="center">
-   <h1> 👩🏽‍💻 Linguagens que eu estudo<br></h1>
+   <h1> 👩🏽‍💻 O que eu gosto de estudar:<br></h1>
     <div align="center">
        <!-- Badges from https://github.com/Ileriayo/markdown-badges -->
           <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
