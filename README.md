@@ -37,7 +37,7 @@
 <div align="center">
    <a href="https://www.linkedin.com/in/gabrielli-katherin/" target="_blank">
     <img src="https://t.ctcdn.com.br/IwwDh-BajTE4ZwE4zuIcvz9Q2ZY=/i490027.jpeg" width="40px" height="40px"></a>
-  <a href="https://www.linkedin.com/in/gabrielli-katherin/" target="_blank">
+  <a href="https://www.instagram.com/gabiikatherin_/" target="_blank">
     <img src="https://cdn.pixabay.com/photo/2021/06/15/12/14/instagram-6338393_1280.png" width="40px" height="40px"></a>
   <a href="https://medium.com/@katheringabrielli"  target="_blank">
     <img src="https://static-00.iconduck.com/assets.00/medium-icon-256x256-07jfepkk.png" height="40px"></a>
