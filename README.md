@@ -1,10 +1,10 @@
 <div align="center">
   <h1>👩🏽 Olá! Eu sou a Gabi Katherin</h1>
+</div>
   <div align="left">
     ✌🏽 Tenho 26 anos<br>
     📊 Sou Analista de Dados & CRM Tech<br>
     🎓 Bacharel em Sistemas de Informação<br>
-  </div>
 </div>
 
 <div align="center">
