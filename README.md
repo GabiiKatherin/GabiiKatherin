@@ -6,9 +6,8 @@
     📊 Sou Analista de Dados & CRM Tech<br>
     🎓 Bacharel em Sistemas de Informação<br>
 </div>
-
-<div align="center">
   <h1></h1>
+<div align="center">
   <!-- GitHub stats: https://github.com/anuraghazra/github-readme-stats -->
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gabiikatherin&show_icons=true&count_private=true&hide_border=true&bg_color=141321&title_color=FB418D&text_color=78B1B1&icon_color=78B1B1">
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GabiiKatherin&layout=compact&show_icons=true&count_private=true&hide_border=true&bg_color=141321&title_color=FB418D&text_color=78B1B1&icon_color=78B1B1">
